@@ -29,13 +29,7 @@ const Chat = () => {
 
   return (
     <div>
-      <div
-        style={{
-          height: "300px",
-          overflowY: "scroll",
-          border: "1px solid #ccc",
-        }}
-      >
+      <div className="chatBox">
         {messages.map((msg, index) => (
           <div key={index}>{`${msg.id}: ${msg.text}`}</div>
         ))}

@@ -1,34 +1,7 @@
-/* Chat.css */
-.chat-container {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.message-container {
-  flex-grow: 1;
+.chatBox {
+  height: 300px;
   overflow-y: scroll;
   border: 1px solid #ccc;
-  padding: 10px;
-}
-
-.message {
-  margin: 5px 0;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-.own-message {
-  background-color: #d3ffd3; /* Cambia el color según tus preferencias */
-}
-
-.other-message {
-  background-color: #e6e6e6; /* Cambia el color según tus preferencias */
-}
-
-.input-container {
-  display: flex;
-  margin-top: 10px;
 }
 
 input {
